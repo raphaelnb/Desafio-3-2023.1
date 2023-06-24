@@ -4,6 +4,8 @@
     margin: 0;
 }
 
+/** Header style */
+
 header {
     display: flex;
     width: 1386px;
@@ -33,4 +35,20 @@ h1 {
     padding: 24px;
     margin-left: 128px;
     margin-top: 1px;
+}
+
+/** content style */
+
+section {
+    padding: 37px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: #FF731A;
+    font-size: 32px;
+    font-family: Montserrat;
+    font-weight: 700;
 }
