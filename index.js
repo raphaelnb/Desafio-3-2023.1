@@ -38,6 +38,7 @@ function handleSubmit() {
     const UF = ufVal.value
 
     getMunicipio(UF).then((muns) => {
+    
     const tabela = document.getElementById('tabela')
     tabela.innerHTML = ''
         
@@ -55,5 +56,6 @@ function handleSubmit() {
                 celula.classList.add('nova-linha')
             }
         }
+        tabela.classList.add('tabela-padding')
     })
 }

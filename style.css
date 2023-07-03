@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 *  {
     margin: 0;
@@ -76,3 +76,30 @@ select {
     padding: 0;
 }
 
+/* Tabela style */
+
+#tabela {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 93px;
+    border-radius: 10px;
+    border: 2px solid #FF731A;  
+}
+
+.tabela-padding {
+    padding-top: 56px;
+    padding-left: 80px;
+    padding-bottom: 53px;
+}
+
+.cel-tabela {
+    width: calc(33.33% - 10px);
+    margin: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 100; 
+    font-style: normal;
+}
