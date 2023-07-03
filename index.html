@@ -17,11 +17,14 @@
     <section>
         <h2>Selecione uma UF</h2>
         <div id="caixa-ef">
-           <form action="#">
+           <form action="#" name="ufForm">
             <label for="uf"></label>
-            <select name="unidadesFed" id="uf" size="1">
+            <select name="unidadesFed" id="uf" size="1" onchange="handleSubmit()">
             </select>
            </form>
+        </div>
+        <div id="tabela">
+            <ul id="lista-mun"></ul>
         </div>
     </section>
 </body>
